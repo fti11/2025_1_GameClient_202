@@ -8,7 +8,7 @@ public class DialogSO : ScriptableObject
     public int id;
     public string characterName;
     public string text;
-    public int nextiId;
+    public int nextId;
     public List<DialogChoiceSO> choices = new List<DialogChoiceSO>();
     public Sprite portrait;
 
